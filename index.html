@@ -34,10 +34,13 @@
 
     <div class="form-card"> 
       <input type="text" id="first-name" class="firstname" placeholder="First Name"> 
+      <p id="error-first" class="errormessage"></p>
       <input type="text" id="last-name" class="lastname" placeholder="Last Name">
-      <input type="text" id="email" class="email" placeholder="Email Address">
-      <input type="text" id="password" class="password" placeholder="Password">
-      
+      <p id="error-last" class="errormessage"></p>
+      <input type="email" id="email" class="email" placeholder="Email Address">
+      <p id="error-email" class="errormessage"></p>
+      <input type="password" id="password" class="password" placeholder="Password">
+      <p id="error-password" class="errormessage"></p>
       <button id="btn-submit" class="btn-submit"> 
         Claim your free trial
       </button> 
@@ -47,7 +50,7 @@
       </p>
     </div>  
 
-    <div id="errorMessage" ></div>
+    
   
   </div>
   <footer>
